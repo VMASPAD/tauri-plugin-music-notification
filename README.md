@@ -17,14 +17,14 @@ A Tauri plugin for Android that provides music playback notifications with media
 Install the plugin using your preferred package manager:
 
 ```bash
-npm run tauri add tauri-plugin-music-notification-api
+npm run tauri add music-notification-api
 ```
 
 Add the plugin to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-tauri-plugin-music-notification = "0.1.0"
+music-notification = "0.1.0"
 ```
 
 ## Setup
@@ -67,7 +67,7 @@ The plugin automatically includes the required Android permissions:
 ### JavaScript/TypeScript
 
 ```typescript
-import { play, pause, resume, stop, next, previous, seek, getState } from 'tauri-plugin-music-notification-api';
+import { play, pause, resume, stop, next, previous, seek, getState } from 'music-notification-api';
 
 // Play music
 await play({
