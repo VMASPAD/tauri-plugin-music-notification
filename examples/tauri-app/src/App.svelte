@@ -1,6 +1,6 @@
 <script>
   import Greet from './lib/Greet.svelte'
-  import { ping, play, pause, resume, stop, next, previous, seek, getState } from 'tauri-plugin-music-notification-api'
+  import { ping, play, pause, resume, stop, next, previous, seek, getState } from 'music-notification-api'
 
 	let response = $state('')
 	let currentState = $state({ isPlaying: false, position: 0, duration: 0 })

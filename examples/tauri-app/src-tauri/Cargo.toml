@@ -19,5 +19,5 @@ tauri-build = { version = "2.5.1", default-features = false , features = [] }
 
 [dependencies]
 tauri = { version = "2.9.1", features = [] }
-tauri-plugin-music-notification = { path = "../../../" }
+music-notification = { path = "../../../" }
 
